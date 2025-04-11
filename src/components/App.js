@@ -25,7 +25,7 @@ const App = () => {
           )
         })}
       </ul>
-      {error && <span>{error}</span>}
+      {error && <span className="error">{error}</span>}
     </div>
   )
 }
